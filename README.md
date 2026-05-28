@@ -14,7 +14,7 @@ The dashboard provides business insights related to:
 
 The dashboard is fully interactive with slicers and filters for dynamic business intelligence reporting.
 
----
+
 
  Tools & Technologies Used
 - Power BI
@@ -23,7 +23,7 @@ The dashboard is fully interactive with slicers and filters for dynamic business
 - Data Modeling
 - Excel / CSV Dataset
 
----
+
 
  Dashboard Features
 
@@ -38,7 +38,7 @@ The dashboard contains important business KPIs:
 | Growth Percentage | 1.00 |
 | Total Orders | 5.009K |
 
----
+
 
 Dashboard Visualizations
 
@@ -50,7 +50,7 @@ Dashboard Visualizations
 - Highest sales observed during November and December.
 - Lowest sales recorded during January and February.
 
----
+
 
  2.  Sum of Profit by Category
 Horizontal bar chart showing category-wise profit.
@@ -64,7 +64,7 @@ Insights
 - Technology category generated maximum profit.
 - Furniture generated the lowest profit.
 
----
+
 
   Sum of Sales by Region
 Column chart comparing sales across regions.
@@ -79,7 +79,7 @@ Column chart comparing sales across regions.
 - West region recorded highest sales.
 - South region showed comparatively lower sales.
 
----
+
 
  Sum of Sales by Segment
 Donut chart showing contribution by customer segment.
@@ -93,7 +93,7 @@ Insights
 - Consumer segment contributed maximum revenue.
 - Home Office contributed the least.
 
----
+
 
   Customer-wise Sales Table
 Displays:
@@ -105,7 +105,7 @@ Used for identifying:
 - Revenue contribution
 - High-value customers
 
----
+
 
 Interactive Slicers / Filters
 
@@ -129,7 +129,7 @@ Filters visuals by product category.
  Segment Filter
 Filters visuals by customer segment.
 
----
+
 
  Data Modeling & Relationships
 
@@ -154,12 +154,12 @@ Benefits of Relationships
 - Accurate KPI calculations
 - Better time intelligence analysis
 
----
+
 
  DAX Measures & Formulas Used
 
  Total Sales
-```DAX
+DAX
 Total Sales = SUM(Orders[Sales])
 
 Total Profit 
